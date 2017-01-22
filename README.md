@@ -35,8 +35,8 @@ $ docker build -t your-tag-name .
 ```
 $ docker run -it -v "$PWD":/usr/src/app your-image-name bash
 ```
-    * execute the npm and grunt commads in the /chipper and /example-sim or /simula-rasa directories
-    * `$ exit` the shell
+  * execute the npm and grunt commads in the /chipper and /example-sim or /simula-rasa directories
+  * `$ exit` the shell
 
 5. finally, you should be able to run the container
 ```
