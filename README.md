@@ -32,9 +32,9 @@ $ docker build -t your-tag-name .
 ```
 
 4. run the following command to access a terminal prompt in the guest container
-```
+````
 $ docker run -it -v "$PWD":/usr/src/app your-image-name bash
-```
+````
   * execute the npm and grunt commads in the /chipper and /example-sim or /simula-rasa directories
   * `$ exit` the shell
 
