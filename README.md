@@ -29,7 +29,7 @@ $ mkdir phetsims && cd phetsims
 3. build the container (ensure the dockerfile is in the current directory)
 ```
 $ docker build -t your-tag-name .
-``
+```
 
 4. run the following command to access a terminal prompt in the guest container
 ```
