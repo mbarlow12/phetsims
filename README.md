@@ -35,14 +35,14 @@ $ docker build -t your-tag-name .
 ```
 $ docker run -it -v "$PWD":/usr/src/app your-image-name bash
 ```
-  * execute the npm and grunt commads in the /chipper and /example-sim or /simula-rasa directories
-  * `$ exit` the shell
+   * execute the npm and grunt commads in the /chipper and /example-sim or /simula-rasa directories
+   * `$ exit` the shell
 
 5. finally, you should be able to run the container
 ```
 $ docker run -d -p 32789:8080 -v "$PWD":/usr/src/app your-image-name
 ```
-  * removing the `-d` flag will print server reqests/responses to the screen
-  * replacing `-p 32789:8080` with `-P` with randomly assign a host port — user `$ docker ps` for running container info
+   * removing the `-d` flag will print server reqests/responses to the screen
+   * replacing `-p 32789:8080` with `-P` with randomly assign a host port — user `$ docker ps` for running container info
 
 
