@@ -1,0 +1,14 @@
+{
+  "example-sim.title": {
+    "value": "Example Simulation"
+  },
+  "flipPolarity": {
+    "value": "Flip Polarity"
+  },
+  "moveMagnet": {
+    "value": "Move Magnet"
+  },
+  "addMagnet": {
+    "value": "Add Bar Magnet"
+  }
+}
